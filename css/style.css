@@ -1,0 +1,184 @@
+/*
+Project Name: Relaxr Blog
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/*Font Imports */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic);
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* header and nav code */
+
+header {
+  background-color:#033048;
+  height:90px;
+}
+
+header h1 {
+  margin-left:100px;
+  margin-top:0px;
+  padding-top:30px;
+  float:left;
+  color:white;
+  font-size:24px;
+  font-family:"Open Sans";
+  font-weight:800;
+}
+
+nav {
+  margin-right:75px;
+  margin-top:0px;
+  padding-top:30px;
+}
+
+nav a {
+  font-size:14px;
+  font-family:"Open Sans";
+  font-weight:600;
+  color:#f9e42e;
+  float:right;
+  overflow:auto;
+  margin-right:35px;
+  margin-top:0px;
+  text-decoration:none;
+}
+
+/* blog body code */
+
+.blogbody {
+  background-color:#f0efef;
+}
+
+.blogpost {
+  width:700px;
+  margin-top:0px;
+  padding-top:50px;
+  margin-left:100px;
+
+
+}
+
+.blogpost_title {
+  font-family:"Open Sans";
+  font-weight:600;
+  font-size:40px;
+  color:#033048;
+}
+
+.blogpost_body {
+  font-family:"Open Sans";
+  font-weight:300;
+  font-size:24px;
+  color:#606161;
+}
+
+
+/* signup code */
+#signup {
+  background-color:#f9e42e;
+  height:70px;
+}
+
+#signup p {
+  margin:0;
+  text-align:center;
+  font-family:"Open Sans";
+  font-weight:800;
+  font-size:12px;
+  padding-top:30px;
+}
+#signup a {
+  color:white;
+  text-decoration: none;
+  background-color:#033048;
+  font-size:12px;
+  border-radius:5px;
+  padding: 9px 35px 9px 35px;
+} 
+
+/* footer code */
+
+footer {
+  height:225px;
+  background-color:#121212;
+}
+
+footer h1 {
+  margin:0;
+  text-align:center;
+  padding-top:40px;
+  color:#f9e42e;
+  font-size:24px;
+  font-family:"Open Sans";
+  font-weight:800;
+}
+
+#icons {
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  text-align:center;
+}
+
+#twitter {
+  max-width:25px;
+  max-height:25px;
+  margin-right:25px;
+}
+
+#facebook {
+  max-width:20px;
+  max-height:20px;
+}
+
+footer p {
+  text-align:center;
+  font-family:"Open Sans";
+  font-weight:600;
+  font-size:9px;
+  color:white;
+  margin-top:55px;
+}
+
+
