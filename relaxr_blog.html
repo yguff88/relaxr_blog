@@ -4,6 +4,7 @@
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src='http://code.jquery.com/jquery-latest.min.js'></script>
 	
 	<title>Relaxr Homepage</title>
 	
@@ -44,8 +45,8 @@
 
 		<div class="about">
 			<h2>About Relaxr</h2>
-			<p>Bacon ipsum dolor amet enim doner elit beef ribs tri-tip in corned beef incididunt jerky dolore eu turducken pancetta ullamco fugiat.</p>
-			<a href="placeholder">Learn More</a>
+			<p>Bacon ipsum dolor amet enim doner elit beef ribs tri-tip in corned beef incididunt jerky dolore eu turducken pancetta ullamco fugiat. <span id="sidebar_hidden">And bacony bacon rained fron the sky. Bacon is good. More bacon!</span></p>
+			<a href="placeholder" id="learnmorebutton">Learn More</a>
 		</div>
 
 		<img src="images/ad-unit.png" />
@@ -57,7 +58,9 @@
 				<img src="images/blog_photo1.jpg" class="blogpost_pic"/>
 				<span class="bigletter">B</span>
 				<p class="blogpost_body">acon ipsum dolor amet jowl bacon tri-tip, shoulder rump ham pork turkey boudin porchetta filet mignon ground round landjaeger fatback brisket. Pastrami pork cow, spare ribs andouille beef boudin flank drumstick ham brisket frankfurter hamburger. Frankfurter bacon strip steak short loin, meatball ground round pancetta beef ham ribeye. Kielbasa flank t-bone pancetta landjaeger pork, capicola shoulder pork loin doner ribeye fatback tenderloin. Shoulder biltong sirloin ham hock ball tip turducken alcatra cow drumstick. Beef pork belly corned beef jerky bresaola.</p>
-				<a href="placeholder" class="blogpost_readmore">Read more > </a>
+				<p id="blogpost_more1">Hipster bacon bacon strip steak short loin, meatball ground round pancetta beef ham ribeye. Kielbasa flank t-bone pancetta landjaeger pork, capicola shoulder pork loin doner ribeye fatback tenderloin. Shoulder biltong sirloin ham hock ball tip turducken alcatra cow drumstick. Beef pork belly corned beef jerky bresaola.</p>
+				<a href="placeholder" id="blogpost_readless1" class="blogpost_readmore">Read less > </a>
+				<a href="placeholder" id="blogpost_readmore1" class="blogpost_readmore">Read more > </a>
 				<hr class="line" />
 			</div>
 
@@ -66,14 +69,16 @@
 				<img src="images/blog_photo2.jpg" class="blogpost_pic"/>
 				<span class="bigletter">B</span>
 				<p class="blogpost_body">acon ipsum dolor amet enim doner elit beef ribs tri-tip in corned beef incididunt jerky dolore eu turducken pancetta ullamco fugiat. Beef ribs irure aliqua tenderloin in consequat boudin ham brisket pig hamburger incididunt biltong in. Officia est qui elit dolor ham exercitation jowl. Flank drumstick laboris non chuck turkey bresaola cupim in prosciutto shank id voluptate. Cillum meatball dolore shank short loin velit filet mignon cupim short ribs. Spare ribs salami id sint sunt.</p>
-				<a href="placeholder" class="blogpost_readmore">Read more > </a>
+				<p id="blogpost_more2">Hipster bacon bacon strip steak short loin, meatball ground round pancetta beef ham ribeye. Kielbasa flank t-bone pancetta landjaeger pork, capicola shoulder pork loin doner ribeye fatback tenderloin. Shoulder biltong sirloin ham hock ball tip turducken alcatra cow drumstick. Beef pork belly corned beef jerky bresaola.</p>
+				<a href="placeholder" id="blogpost_readless2" class="blogpost_readmore">Read less > </a>
+				<a href="placeholder" id="blogpost_readmore2" class="blogpost_readmore">Read more > </a>
 				<hr class="line" />
 			</div>
 		</div>
 	</div>
 
 	<div id="signup">
-			<p><a href="http://www.relaxr.com/signuppage">Sign Up Now!</a></p>
+			<p><a href="">Sign Up Now!</a></p>
 		</div>
 
 		<footer id="footer">
@@ -89,3 +94,5 @@
 			<p>Copyright 2015. Relaxr.</p>
 		</div>
 		</footer>
+		<script type="text/javascript" src="js/relaxr_blog.js"></script>
+	</body>
